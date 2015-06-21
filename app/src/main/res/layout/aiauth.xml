@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Authentication"
+        android:id="@+id/tvAuth"
+        android:layout_gravity="center_horizontal"
+        android:textSize="40dp"
+        android:paddingTop="50dp"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/etUN"
+        android:layout_gravity="center_horizontal"
+        android:hint="User Name"
+        android:gravity="center"
+        android:paddingTop="75dp"
+        android:text="admin" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/etPW"
+        android:layout_gravity="center_horizontal"
+        android:hint="Password"
+        android:gravity="center"
+        android:text="admin" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:id="@+id/bLogin"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"/>
+</LinearLayout>
